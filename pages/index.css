@@ -171,6 +171,9 @@
   align-items: center;
 }
 
+.reservation {
+}
+
 .reservation__form {
   display: flex;
   background-color: #d9e7ff;
@@ -191,7 +194,7 @@
   border: 0;
 }
 
-.reservation__form--title {
+.reservation__title {
   display: flex;
   margin-top: 100px;
   margin-bottom: 80px;
