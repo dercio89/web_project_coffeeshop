@@ -262,11 +262,8 @@
 .form__checkbox {
   margin-top: 32px;
   border-radius: 4px;
-  display: inline-block;
 }
 
-.form__label .form__label-checkbox {
-  display: flex;
-
+.form__checkbox-input {
   border-radius: 2px;
 }
