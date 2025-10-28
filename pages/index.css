@@ -238,6 +238,10 @@
   color: #ffffff;
 }
 
+.button:hover {
+  opacity: 0, 7;
+}
+
 .form__button-submit {
   display: flex;
   margin-top: 32px;
@@ -263,7 +267,6 @@
 
 .form__label .form__label-checkbox {
   display: flex;
-  display: inline-block;
+
   border-radius: 2px;
-  justify-content: space-around;
 }
