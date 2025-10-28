@@ -172,6 +172,7 @@
 }
 
 .reservation {
+  margin: auto;
 }
 
 .reservation__form {
@@ -224,6 +225,7 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+  border-radius: 4px;
   border: color #838383;
 }
 
@@ -244,10 +246,12 @@
   background-color: #2f80ed;
   align-items: center;
   justify-content: center;
+  border-radius: 4px;
 }
 
 .form__checkbox {
   margin-top: 32px;
+  border-radius: 4px;
 }
 .form__checkbox.form__button--submit {
   display: flex;
