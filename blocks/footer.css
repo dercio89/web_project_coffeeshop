@@ -1,0 +1,25 @@
+.footer__column {
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
+}
+
+.footer__column-heading {
+  margin-top: 100px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  font-size: 16px;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.footer__list {
+  padding: 0;
+}
+
+.footer__list-item {
+  margin-top: auto;
+  list-style: none;
+}

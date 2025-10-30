@@ -1,0 +1,13 @@
+.reservation {
+  padding-top: 100px;
+}
+
+.reservation__title {
+  display: flex;
+  margin: 0 auto 80px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
