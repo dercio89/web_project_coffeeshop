@@ -115,20 +115,18 @@
         </section>
 
         <section id="reservation" class="reservation">
+          <h2 class="reservation__title">Reservar uma mesa</h2>
           <form class="form reservation__form">
-            <h2 class="reservation__title">Reservar uma mesa</h2>
-            <fieldset class="fieldset">
-              <form class="form">
-                <label for="name" class="form__label">Nome *</label>
-                <input
-                  class="form__input"
-                  type="text"
-                  id="name"
-                  name="name"
-                  placeholder="Nome"
-                  required
-                />
-              </form>
+            <fieldset class="form__fieldset">
+              <label for="name" class="form__label">Nome *</label>
+              <input
+                class="form__input"
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Nome"
+                required
+              />
 
               <label for="convidados" class="form__label"
                 >Numero de convidados *</label
@@ -158,14 +156,16 @@
                 required
               />
               <label class="form__button-submit">
-                <button type="submit" class="button">Reservar uma mesa</button>
+                <button type="submit" class="form__button">
+                  Reservar uma mesa
+                </button>
               </label>
 
               <label class="form__checkbox">
                 <input
                   type="checkbox"
                   id="termos"
-                  class="form__checkbox form__checkbox-input"
+                  class="form__checkbox-input"
                 />
                 Eu concordo com os termos de uso
               </label>

@@ -1,18 +1,13 @@
-.reservation__form {
-  display: flex;
-  background-color: #d9e7ff;
-  background-image: url("../images/background_reservation.svg");
-  background-size: cover;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+.form {
+  max-width: 385px;
+  width: 100%;
 }
 
-.fieldset {
+.form__fieldset {
   display: flex;
   margin-bottom: 120px;
   flex-direction: column;
-  max-width: 385px;
+  width: 100%;
   justify-content: center;
   position: relative;
   border: 0;
@@ -39,13 +34,14 @@
   line-height: 30px;
   border-radius: 4px;
   border: color #838383;
+  width: 100%;
 }
 
-.input::placeholder {
+.form__input::placeholder {
   color: #838383;
 }
 
-.button {
+.form__button {
   background-color: #2f80ed;
   border: none;
   color: #ffffff;
@@ -73,10 +69,13 @@
 }
 
 .form__checkbox {
+  display: flex;
   margin-top: 32px;
   border-radius: 4px;
+  justify-content: center;
 }
 
 .form__checkbox-input {
   border-radius: 2px;
+  margin-right: 8px;
 }
